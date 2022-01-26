@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Demo</title>
+</head>
+<body>
+    <div id="container">
+        <section id="main_header">
+            <div class="img"></div>
+            <div class="overlay"></div>
+            <div class="mainHeader">
+                <span>Hello, I'm Omar</span>
+                <span>an inspiring web developer</span>
+            </div>
+            <div class="menu" onclick="menuToggle()">
+                <ul class="menu_list">
+                    <a href="#bio"><li><i class="fa-regular fa-user"></i>about me</li></a>
+                    <a href="#skills"><li><i class="fas fa-book"></i>skills</li></a>
+                    <a href="#projects"><li><i class="fas fa-tasks"></i>projects</li></a>
+                    <a href="#contact_form"><li><i class="fab fa-wpforms"></i>contact form</li></a>
+                </ul>
+                <div class="hamburger_menu">
+                    <div class="menu_lines">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll_button">
+                <span>SCROLL DOWN</span>
+                <div class="arrow">
+                    <span class="left_arrow"></span>
+                    <span class="right_arrow"></span>
+                </div>
+            </div>
+        </section>
+        <section id="bio">
+            <img src="img/profile.png">
+            <p>
+                <span>HI THERE</span><br><br>
+                <span>I am 28 years old a web developer/desinger</span><br>
+                <span>based in <a href="">Jordan</a> i have a strong passion for anything</span><br>
+                <span>web related, mostly developing web applications.</span><br><br>
+                <span>you can find more on my <a href="#">blog</a>.</span>
+            </p>
+        </section>
+        <section id="skills">
+            <h1>What I Do</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-code fa-5x"></i>
+                        <h3>development</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <span>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</span><br>
+                            <span>fsalkdf jsalkdfj asldk fsad faskdf bsadkf jbasdl</span><br>
+                            <span>fkjbasdlk fjsald fjbsadl fjbasd lfkb  sad fkjhbsad fkjnsad f</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-paint-brush fa-5x"></i>
+                        <h3>design</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <span>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</span><br>
+                            <span>fsalkdf jsalkdfj asldk fsad faskdf bsadkf jbasdl</span><br>
+                            <span>fkjbasdlk fjsald fjbsadl fjbasd lfkb  sad fkjhbsad fkjnsad f</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-lightbulb-o fa-5x"></i>
+                        <h3>open soruce</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <span>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</span><br>
+                            <span>fsalkdf jsalkdfj asldk fsad faskdf bsadkf jbasdl</span><br>
+                            <span>fkjbasdlk fjsald fjbsadl fjbasd lfkb  sad fkjhbsad fkjnsad f</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-globe fa-5x"></i>
+                        <h3>the world</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <span>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</span><br>
+                            <span>fsalkdf jsalkdfj asldk fsad faskdf bsadkf jbasdl</span><br>
+                            <span>fkjbasdlk fjsald fjbsadl fjbasd lfkb  sad fkjhbsad fkjnsad f</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>I've Worked With</h1>
+            <div class="projects-container">
+                <div class="left-projects">
+                    <div class="card dark-card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                    <div class="card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                    <div class="card dark-card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                    <div class="card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                    <div class="card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                    <div class="card dark-card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                </div>
+                <div class="right-projects">
+                    <div class="card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                    <div class="card dark-card">
+                        <h3>asdf asd fasd</h3>
+                        <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="contact_form">
+            <i class="fa fa-paper-plane fa-5x"></i>
+            <p>
+                <h1>Are you intrested?</h1>
+                <span>Wether You have a project or just want to say hi</span><br>
+                <span>Feel free to shoot me a message</span><br>
+            </p>
+            <button>Message Me</button>
+        </section>
+        <footer>
+            <h1>Stalk Me</h1>
+            <div id="socials">
+                <a href="">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-twitter"></i>
+                                </a>
+                <a href="">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </div>
+            <p>twsfv sdaf sadf sadf asdf asdf sadf sadfgv dfb tgnb rty </p>
+        </footer>
+    </div>
+</body>
+</html>
